@@ -1,3 +1,3 @@
-# labits
+# laBits
 
-The LaBits Project contains bits and pieces of software written and tested for various purposes.
+The laBits Project contains bits and pieces of software written and tested for various purposes.
