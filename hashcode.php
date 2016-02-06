@@ -10,7 +10,8 @@ function hashcode($len){
   }
   return implode("",$a);
 }
-// usage: 
+// usage:
+// eg. Generate a 20 digit code.
 $h = hashcode(20);
 echo $h;
 ?>
