@@ -1,8 +1,7 @@
 <?php
-// written by Kondwani Hara.
-// kondwa@gmail.com
-// Copyright © All rights reserved.
-function hashcode($len){
+// Written by Kondwani Hara.
+// kondwa@gmail.com.
+function rng($len){
   $a = array();
   for($i=0; $i < $len; $i++){
     $a[]=rand(0,9);
@@ -11,6 +10,6 @@ function hashcode($len){
 }
 // usage:
 // eg. Generate a 20 digit code.
-$h = hashcode(20);
-echo $h;
+$n = rng(20);
+echo $n;
 ?>
